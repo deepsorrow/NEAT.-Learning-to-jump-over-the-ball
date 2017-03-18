@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Genotype">
+      <UniqueIdentifier>{74ff8489-6697-4d09-a086-e202a086d117}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Genotype">
+      <UniqueIdentifier>{b8c6701b-876c-4fd1-bba2-b0550ca409fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Phenotype">
+      <UniqueIdentifier>{859c3d04-1aba-4475-a1b9-edd1a86e5361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Phenotype">
+      <UniqueIdentifier>{5a50f617-2dd5-44a8-b8a9-66db0e13e179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Controls">
+      <UniqueIdentifier>{5a9eeb1a-2be4-4e7c-9149-c4168c9386f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controls">
+      <UniqueIdentifier>{0a15a602-60b9-4bab-bc04-6c70f506b737}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GraphicEnvironment">
+      <UniqueIdentifier>{a88091ea-e7a4-4dbf-913e-cfcbe1744e8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GraphicEnvironment">
+      <UniqueIdentifier>{bde96738-1ab2-45b2-b6c7-30a48e9edaff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="windowControl.cpp">
+      <Filter>Source Files\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="gene.cpp">
+      <Filter>Source Files\Genotype</Filter>
+    </ClCompile>
+    <ClCompile Include="genome.cpp">
+      <Filter>Source Files\Genotype</Filter>
+    </ClCompile>
+    <ClCompile Include="genus.cpp">
+      <Filter>Source Files\Genotype</Filter>
+    </ClCompile>
+    <ClCompile Include="ball.cpp">
+      <Filter>Source Files\GraphicEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="environment.cpp">
+      <Filter>Source Files\GraphicEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>Source Files\GraphicEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="modelManager.cpp">
+      <Filter>Source Files\GraphicEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="polygons.cpp">
+      <Filter>Source Files\GraphicEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="genusManager.cpp">
+      <Filter>Source Files\Phenotype</Filter>
+    </ClCompile>
+    <ClCompile Include="neuralNetwork.cpp">
+      <Filter>Source Files\Phenotype</Filter>
+    </ClCompile>
+    <ClCompile Include="neuron.cpp">
+      <Filter>Source Files\Phenotype</Filter>
+    </ClCompile>
+    <ClCompile Include="specie.cpp">
+      <Filter>Source Files\Phenotype</Filter>
+    </ClCompile>
+    <ClCompile Include="InnovationCacher.cpp">
+      <Filter>Source Files\Genotype</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboardControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NeuralNetwork.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="settings.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="windowControl.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="gene.h">
+      <Filter>Header Files\Genotype</Filter>
+    </ClInclude>
+    <ClInclude Include="genome.h">
+      <Filter>Header Files\Genotype</Filter>
+    </ClInclude>
+    <ClInclude Include="genus.h">
+      <Filter>Header Files\Genotype</Filter>
+    </ClInclude>
+    <ClInclude Include="ball.h">
+      <Filter>Header Files\GraphicEnvironment</Filter>
+    </ClInclude>
+    <ClInclude Include="environment.h">
+      <Filter>Header Files\GraphicEnvironment</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Header Files\GraphicEnvironment</Filter>
+    </ClInclude>
+    <ClInclude Include="modelManager.h">
+      <Filter>Header Files\GraphicEnvironment</Filter>
+    </ClInclude>
+    <ClInclude Include="polygons.h">
+      <Filter>Header Files\GraphicEnvironment</Filter>
+    </ClInclude>
+    <ClInclude Include="genusManager.h">
+      <Filter>Header Files\Phenotype</Filter>
+    </ClInclude>
+    <ClInclude Include="neuralNetwork.h">
+      <Filter>Header Files\Phenotype</Filter>
+    </ClInclude>
+    <ClInclude Include="neuron.h">
+      <Filter>Header Files\Phenotype</Filter>
+    </ClInclude>
+    <ClInclude Include="specie.h">
+      <Filter>Header Files\Phenotype</Filter>
+    </ClInclude>
+    <ClInclude Include="random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InnovationCacher.h">
+      <Filter>Header Files\Genotype</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
