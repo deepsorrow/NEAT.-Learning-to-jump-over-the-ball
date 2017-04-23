@@ -2,3 +2,5 @@
 My highschool project for scientific-research conference in Lyceum №84 (my school).    
 Made in Microsoft Visual Studio RC 2017 on C++. Requires Box2D and SFML.
 
+Video preview aviable here: https://www.youtube.com/watch?v=AZjs2mU8hpY
+
