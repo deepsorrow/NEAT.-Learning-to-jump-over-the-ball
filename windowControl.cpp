@@ -22,9 +22,9 @@ auto WindowControl::KeyboardEvents() -> void
 			if (event.key.code == sf::Keyboard::R)
 				TrainingSpeed = !TrainingSpeed;
 
-		if (event.type == sf::Event::KeyPressed)
-			if (event.key.code == sf::Keyboard::S)
-				shouldIterationIncrement = !shouldIterationIncrement;
+		//if (event.type == sf::Event::KeyPressed)
+		//	if (event.key.code == sf::Keyboard::S)
+		//		shouldIterationIncrement = !shouldIterationIncrement;
 
 		if (event.type == sf::Event::KeyPressed)
 			if (event.key.code == sf::Keyboard::S)
