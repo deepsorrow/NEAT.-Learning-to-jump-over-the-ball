@@ -10,7 +10,7 @@ public:
 		 : SizeOfPopulation(Size), inputs(inputVals), outputs(outputVals) {
 		 ancestors.push_back(Specie(inputs, outputs));
 	 };
-     explicit Genus(const std::size_t &Size, const std::size_t &inputVals, const std::size_t &outputVals,
+     	 explicit Genus(const std::size_t &Size, const std::size_t &inputVals, const std::size_t &outputVals,
 		 Specie &first, Specie &second);
 	 explicit Genus();
 
