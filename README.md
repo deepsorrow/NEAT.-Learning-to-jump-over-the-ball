@@ -5,5 +5,5 @@ Made in Microsoft Visual Studio RC 2017 on C++. Requires Box2D and SFML.
 Implementation of Kenneth Stanley and Risto Miikkulainen's NEAT
 (NeuroEvolution of Augmenting Topologies, http://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf).
 
-Video preview aviable here: https://www.youtube.com/watch?v=AZjs2mU8hpY
+Video preview avilable here: https://www.youtube.com/watch?v=AZjs2mU8hpY
 
